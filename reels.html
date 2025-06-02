@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta_Reels</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* background-color: black; */
+            border: none;
+        }
+        .container {
+        
+            /* border: 2px solid black; */
+            width: 100vw;
+            height:auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .container video{
+            position: relative;
+            top: -2rem;
+            margin: .5rem 0rem;
+            height: 95vh;
+            width: 99vw;
+            /* display: none; */
+        }
+        .lastreel{
+        padding-bottom: 3rem ;
+        }
+
+
+        .bottom_navlist {
+
+            background-color: white;
+            
+            width: 100%;
+            height: 6vh;
+            bottom: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: fixed;
+            z-index: 1;
+            list-style: none;
+        }
+        nav{
+            margin-top: .5rem;
+            height: 2.1rem;
+            width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* display: none; */
+        /* background-color: green ; */
+        /* position: fixed; */
+        /* top: 1rem; */
+        
+    }
+
+        .bottom_navlist img {
+            height: 1.7rem !important;
+            width: 1.7rem !important;
+        }
+
+
+
+        .searchBox{
+        /* margin-top: -1rem; */
+        height: 2rem;
+        width: 12rem;
+        border: none;
+        background-color: rgb(245, 238, 238);
+        border-radius: .3rem;
+        border-top-left-radius: 0rem;
+        border-top-right-radius:0rem ;
+    }
+
+ 
+    #searchIcon{
+        /* margin-top: .5rem; */
+        /* margin-top: -2rem; */
+        background-color:  rgb(245, 238, 238);
+        height: 2rem;
+        width: 2rem;
+        border-radius: .3rem;
+        border-top-right-radius: 0rem;
+        border-bottom-right-radius:0rem ;
+        padding: 5px;
+    }
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav><span id="searchIcon" class="material-symbols-outlined">
+            search
+            </span><input class="searchBox" type="search" placeholder="Search"></nav>
+    
+        <video  height="722"  controls loop muted>
+            <source src="reel1.mp4" type="video/mp4">
+        </video>
+        <video  height="722"  controls loop muted>
+            <source src="reel2.mp4" type="video/mp4">
+        </video>
+        <video  height="722"  controls loop muted>
+            <source src="Mahadev.mp4" type="video/mp4">
+        </video>
+        <video  height="722"  controls loop muted>
+            <source src="explorevideo.mp4" type="video/mp4">
+        </video>
+        <video  height="722"  controls loop muted>
+            <source src="reel0.mp4" type="video/mp4">
+        </video>
+        <video  height="722"  controls loop muted>
+            <source src="shradhaMam.mp4" type="video/mp4">
+        </video>
+        <video  height="722"  controls loop muted>
+            <source src="viratReel1.mp4" type="video/mp4">
+        </video>
+        <video  height="722"  controls loop muted>
+            <source src="manualpost.mp4" type="video/mp4">
+        </video>
+        <video  height="722"  controls loop muted>
+            <source src="reel4.mp4" type="video/mp4">
+        </video>
+        <video  height="722"  controls loop muted>
+            <source src="KhanSir.mp4" type="video/mp4">
+        </video>
+        <video  height="722"  controls loop muted>
+            <source src="reel5.mp4" type="video/mp4">
+        </video>
+        <video  height="722"  controls loop muted>
+            <source src="reel11.mp4" type="video/mp4">
+        </video>
+        <video  height="722"  controls loop muted>
+            <source src="reel10.mp4" type="video/mp4">
+        </video>
+        <video  height="722"  controls loop muted>
+            <source src="ViratReel2.mp4" type="video/mp4">
+        </video>
+
+    </div>
+
+    <div class="bottom_navlist">
+        <li><img class="homePage" src="home (1).PNG" alt=""></li>
+        <li><img class="openSearch" src="search.png" alt=""></li>
+        <li><img class="openReel" src="reel.jpg " alt=""></li>
+        <li><img class="openMessage" src="messenger (1).PNG" alt=""></li>
+        <li><img class="profilephoto" src="pranshudp.png" alt=""></li>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
